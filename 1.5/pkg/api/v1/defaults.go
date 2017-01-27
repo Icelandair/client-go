@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util"
-	"k8s.io/client-go/1.5/pkg/util/intstr"
-	"k8s.io/client-go/1.5/pkg/util/parsers"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util"
+	"github.com/Icelandair/client-go/1.5/pkg/util/intstr"
+	"github.com/Icelandair/client-go/1.5/pkg/util/parsers"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

@@ -17,8 +17,8 @@ limitations under the License.
 package api
 
 import (
-	"k8s.io/client-go/1.5/pkg/api/resource"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/resource"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
 )
 
 // Returns string version of ResourceName.

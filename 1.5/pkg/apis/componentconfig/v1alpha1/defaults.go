@@ -21,12 +21,12 @@ import (
 	"runtime"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/kubelet/qos"
-	kubetypes "k8s.io/client-go/1.5/pkg/kubelet/types"
-	"k8s.io/client-go/1.5/pkg/master/ports"
-	kruntime "k8s.io/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/kubelet/qos"
+	kubetypes "github.com/Icelandair/client-go/1.5/pkg/kubelet/types"
+	"github.com/Icelandair/client-go/1.5/pkg/master/ports"
+	kruntime "github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 const (

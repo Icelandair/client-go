@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/client-go/1.5/rest"
-	clientcmdapi "k8s.io/client-go/1.5/tools/clientcmd/api"
+	"github.com/Icelandair/client-go/1.5/rest"
+	clientcmdapi "github.com/Icelandair/client-go/1.5/tools/clientcmd/api"
 )
 
 type testLoader struct {

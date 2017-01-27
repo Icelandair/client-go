@@ -21,9 +21,9 @@ limitations under the License.
 package componentconfig
 
 import (
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
-	config "k8s.io/client-go/1.5/pkg/util/config"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
+	config "github.com/Icelandair/client-go/1.5/pkg/util/config"
 	reflect "reflect"
 )
 

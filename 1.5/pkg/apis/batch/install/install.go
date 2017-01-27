@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/1.5/pkg/apimachinery/announced"
-	"k8s.io/client-go/1.5/pkg/apis/batch"
-	"k8s.io/client-go/1.5/pkg/apis/batch/v1"
-	"k8s.io/client-go/1.5/pkg/apis/batch/v2alpha1"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/announced"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/batch"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/batch/v1"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/batch/v2alpha1"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  batch.GroupName,
 			VersionPreferenceOrder:     []string{v1.SchemeGroupVersion.Version, v2alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/1.5/pkg/apis/batch",
+			ImportPrefix:               "github.com/Icelandair/client-go/1.5/pkg/apis/batch",
 			AddInternalObjectsToScheme: batch.AddToScheme,
 		},
 		announced.VersionToSchemeFunc{

@@ -25,14 +25,14 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/api/v1"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/runtime/serializer/streaming"
-	"k8s.io/client-go/1.5/pkg/watch"
-	"k8s.io/client-go/1.5/pkg/watch/versioned"
-	"k8s.io/client-go/1.5/rest"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime/serializer/streaming"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
+	"github.com/Icelandair/client-go/1.5/pkg/watch/versioned"
+	"github.com/Icelandair/client-go/1.5/rest"
 )
 
 func getJSON(version, kind, name string) []byte {

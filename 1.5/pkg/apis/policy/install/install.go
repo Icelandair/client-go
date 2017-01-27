@@ -19,9 +19,9 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/1.5/pkg/apimachinery/announced"
-	"k8s.io/client-go/1.5/pkg/apis/policy"
-	"k8s.io/client-go/1.5/pkg/apis/policy/v1alpha1"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/announced"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/policy"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/policy/v1alpha1"
 )
 
 func init() {
@@ -29,7 +29,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  policy.GroupName,
 			VersionPreferenceOrder:     []string{v1alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/1.5/pkg/apis/policy",
+			ImportPrefix:               "github.com/Icelandair/client-go/1.5/pkg/apis/policy",
 			AddInternalObjectsToScheme: policy.AddToScheme,
 		},
 		announced.VersionToSchemeFunc{

@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/conversion/queryparams"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/conversion/queryparams"
 )
 
 // codec binds an encoder and decoder.

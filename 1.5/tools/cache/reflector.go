@@ -34,13 +34,13 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/client-go/1.5/pkg/api"
-	apierrs "k8s.io/client-go/1.5/pkg/api/errors"
-	"k8s.io/client-go/1.5/pkg/api/meta"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	utilruntime "k8s.io/client-go/1.5/pkg/util/runtime"
-	"k8s.io/client-go/1.5/pkg/util/wait"
-	"k8s.io/client-go/1.5/pkg/watch"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	apierrs "github.com/Icelandair/client-go/1.5/pkg/api/errors"
+	"github.com/Icelandair/client-go/1.5/pkg/api/meta"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	utilruntime "github.com/Icelandair/client-go/1.5/pkg/util/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/wait"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
 )
 
 // ListerWatcher is any object that knows how to perform an initial list and start a watch on a resource.
@@ -164,8 +164,8 @@ func hasPackage(file string, ignoredPackages []string) bool {
 
 // trimPackagePrefix reduces duplicate values off the front of a package name.
 func trimPackagePrefix(file string) string {
-	if l := strings.LastIndex(file, "k8s.io/client-go/1.5/pkg/"); l >= 0 {
-		return file[l+len("k8s.io/client-go/1.5/"):]
+	if l := strings.LastIndex(file, "github.com/Icelandair/client-go/1.5/pkg/"); l >= 0 {
+		return file[l+len("github.com/Icelandair/client-go/1.5/"):]
 	}
 	if l := strings.LastIndex(file, "/src/"); l >= 0 {
 		return file[l+5:]

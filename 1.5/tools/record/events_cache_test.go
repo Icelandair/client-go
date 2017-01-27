@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/api/v1"
-	"k8s.io/client-go/1.5/pkg/util/clock"
-	"k8s.io/client-go/1.5/pkg/util/diff"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	"github.com/Icelandair/client-go/1.5/pkg/util/clock"
+	"github.com/Icelandair/client-go/1.5/pkg/util/diff"
 )
 
 func makeObjectReference(kind, name, namespace string) v1.ObjectReference {

@@ -17,10 +17,10 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	registered "k8s.io/client-go/1.5/pkg/apimachinery/registered"
-	serializer "k8s.io/client-go/1.5/pkg/runtime/serializer"
-	rest "k8s.io/client-go/1.5/rest"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	registered "github.com/Icelandair/client-go/1.5/pkg/apimachinery/registered"
+	serializer "github.com/Icelandair/client-go/1.5/pkg/runtime/serializer"
+	rest "github.com/Icelandair/client-go/1.5/rest"
 )
 
 type AuthorizationInterface interface {

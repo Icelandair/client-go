@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"strings"
 
-	"k8s.io/client-go/1.5/pkg/api/meta"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/api/meta"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 var (

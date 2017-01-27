@@ -21,10 +21,10 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	storage "k8s.io/client-go/1.5/pkg/apis/storage"
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	storage "github.com/Icelandair/client-go/1.5/pkg/apis/storage"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 func init() {

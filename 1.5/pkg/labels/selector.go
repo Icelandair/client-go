@@ -24,9 +24,9 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"k8s.io/client-go/1.5/pkg/selection"
-	"k8s.io/client-go/1.5/pkg/util/sets"
-	"k8s.io/client-go/1.5/pkg/util/validation"
+	"github.com/Icelandair/client-go/1.5/pkg/selection"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/util/validation"
 )
 
 // Requirements is AND of all requirements.

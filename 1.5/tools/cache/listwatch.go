@@ -19,11 +19,11 @@ package cache
 import (
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/fields"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/watch"
-	"k8s.io/client-go/1.5/rest"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/fields"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
+	"github.com/Icelandair/client-go/1.5/rest"
 )
 
 // ListFunc knows how to list resources

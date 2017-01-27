@@ -19,13 +19,13 @@ package cache
 import (
 	"testing"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	apierrors "k8s.io/client-go/1.5/pkg/api/errors"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/apis/batch"
-	"k8s.io/client-go/1.5/pkg/apis/extensions"
-	"k8s.io/client-go/1.5/pkg/labels"
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	apierrors "github.com/Icelandair/client-go/1.5/pkg/api/errors"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/batch"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/extensions"
+	"github.com/Icelandair/client-go/1.5/pkg/labels"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
 func TestStoreToNodeLister(t *testing.T) {

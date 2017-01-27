@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/1.5/pkg/apimachinery/announced"
-	"k8s.io/client-go/1.5/pkg/apis/imagepolicy"
-	"k8s.io/client-go/1.5/pkg/apis/imagepolicy/v1alpha1"
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/announced"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/imagepolicy"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/imagepolicy/v1alpha1"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  imagepolicy.GroupName,
 			VersionPreferenceOrder:     []string{v1alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/1.5/pkg/apis/imagepolicy",
+			ImportPrefix:               "github.com/Icelandair/client-go/1.5/pkg/apis/imagepolicy",
 			RootScopedKinds:            sets.NewString("ImageReview"),
 			AddInternalObjectsToScheme: imagepolicy.AddToScheme,
 		},

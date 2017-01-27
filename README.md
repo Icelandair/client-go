@@ -18,7 +18,7 @@ client-go has the same release cycle as the Kubernetes main repository. For exam
 
 ### How to get it
 
-You can `go get` to get a release of client-go, e.g., `go get k8s.io/client-go/1.4/...` or `go get k8s.io/client-go/1.4/kubernetes`.
+You can `go get` to get a release of client-go, e.g., `go get github.com/Icelandair/client-go/1.5/...` or `go get github.com/Icelandair/client-go/1.5/kubernetes`.
 
 ### How to use it
 
@@ -35,4 +35,4 @@ If your application depends on a package that client-go depends on, and you let 
 Please report bugs to the main Kubernetes [repository](https://github.com/kubernetes/kubernetes/issues/new).
 
 ### Contributing code
-Please send pull requests against the client packages in the Kubernetes main [repository](https://github.com/kubernetes/kubernetes), and run the `/staging/src/k8s.io/client-go/copy.sh` script to update the staging area in the main repository. Changes in the staging area will be published to this repository every day.
+Please send pull requests against the client packages in the Kubernetes main [repository](https://github.com/kubernetes/kubernetes), and run the `/staging/src/github.com/Icelandair/client-go/copy.sh` script to update the staging area in the main repository. Changes in the staging area will be published to this repository every day.

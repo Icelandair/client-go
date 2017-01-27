@@ -17,10 +17,10 @@ limitations under the License.
 package versioned
 
 import (
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/conversion"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/watch"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/conversion"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
 )
 
 // WatchEventKind is name reserved for serializing watch events.

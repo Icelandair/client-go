@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/version"
-	"k8s.io/client-go/1.5/pkg/watch"
-	"k8s.io/client-go/1.5/rest"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/version"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
+	"github.com/Icelandair/client-go/1.5/rest"
 )
 
 // Fake implements client.Interface. Meant to be embedded into a struct to get

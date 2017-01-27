@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/util/flowcontrol"
+	"github.com/Icelandair/client-go/1.5/pkg/util/flowcontrol"
 )
 
 func parse(raw string) *url.URL {

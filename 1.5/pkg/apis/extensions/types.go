@@ -29,10 +29,10 @@ support is experimental.
 package extensions
 
 import (
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/resource"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/util/intstr"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/resource"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/util/intstr"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/1.5/pkg/api/meta/metatypes"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/types"
-	"k8s.io/client-go/1.5/pkg/util/json"
+	"github.com/Icelandair/client-go/1.5/pkg/api/meta/metatypes"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/types"
+	"github.com/Icelandair/client-go/1.5/pkg/util/json"
 )
 
 // MarshalJSON ensures that the unstructured object produces proper

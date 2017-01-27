@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/1.5/pkg/apimachinery/announced"
-	"k8s.io/client-go/1.5/pkg/apis/authentication"
-	"k8s.io/client-go/1.5/pkg/apis/authentication/v1beta1"
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/announced"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/authentication"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/authentication/v1beta1"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  authentication.GroupName,
 			VersionPreferenceOrder:     []string{v1beta1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/1.5/pkg/apis/authentication",
+			ImportPrefix:               "github.com/Icelandair/client-go/1.5/pkg/apis/authentication",
 			RootScopedKinds:            sets.NewString("TokenReview"),
 			AddInternalObjectsToScheme: authentication.AddToScheme,
 		},

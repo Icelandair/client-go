@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/1.5/pkg/apimachinery/announced"
-	"k8s.io/client-go/1.5/pkg/apis/storage"
-	"k8s.io/client-go/1.5/pkg/apis/storage/v1beta1"
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/announced"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/storage"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/storage/v1beta1"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  storage.GroupName,
 			VersionPreferenceOrder:     []string{v1beta1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/1.5/pkg/apis/storage",
+			ImportPrefix:               "github.com/Icelandair/client-go/1.5/pkg/apis/storage",
 			RootScopedKinds:            sets.NewString("StorageClass"),
 			AddInternalObjectsToScheme: storage.AddToScheme,
 		},

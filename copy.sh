@@ -22,7 +22,7 @@ set -o pipefail
 RELEASE="1.4"
 MAIN_REPO_FROM_SRC="${1:-"k8s.io/kubernetes"}"
 MAIN_REPO="${GOPATH%:*}/src/${MAIN_REPO_FROM_SRC}"
-CLIENT_REPO_FROM_SRC="${2:-"k8s.io/client-go/${RELEASE}"}"
+CLIENT_REPO_FROM_SRC="${2:-"github.com/Icelandair/client-go/${RELEASE}"}"
 CLIENT_REPO="${MAIN_REPO}/staging/src/${CLIENT_REPO_FROM_SRC}"
 CLIENT_REPO_TEMP="${CLIENT_REPO}"/_tmp
 
@@ -126,7 +126,7 @@ function mvfolder {
     local dst_package="${dst##*/}"
     find "${CLIENT_REPO}" -type f -name "*.go" -print0 | xargs -0 sed -i "s,package ${src_package},package ${dst_package},g"
     # rewrite imports
-    # the first rule is to convert import lines like `restclient "k8s.io/client-go/pkg/client/restclient"`,
+    # the first rule is to convert import lines like `restclient "github.com/Icelandair/client-go/pkg/client/restclient"`,
     # where a package alias is the same the package name.
     find "${CLIENT_REPO}" -type f -name "*.go" -print0 | \
         xargs -0 sed -i "s,${src_package} \"${CLIENT_REPO_FROM_SRC}/${src},${dst_package} \"${CLIENT_REPO_FROM_SRC}/${dst},g"

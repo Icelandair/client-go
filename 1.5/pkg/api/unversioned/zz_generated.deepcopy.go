@@ -21,7 +21,7 @@ limitations under the License.
 package unversioned
 
 import (
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
 	time "time"
 )
 

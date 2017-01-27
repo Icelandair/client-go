@@ -26,8 +26,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/1.5/rest"
-	clientcmdapi "k8s.io/client-go/1.5/tools/clientcmd/api"
+	"github.com/Icelandair/client-go/1.5/rest"
+	clientcmdapi "github.com/Icelandair/client-go/1.5/tools/clientcmd/api"
 )
 
 // ConfigAccess is used by subcommands and methods in this package to load and modify the appropriate config files

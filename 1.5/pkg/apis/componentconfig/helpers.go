@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	utilnet "k8s.io/client-go/1.5/pkg/util/net"
+	utilnet "github.com/Icelandair/client-go/1.5/pkg/util/net"
 )
 
 // used for validating command line opts

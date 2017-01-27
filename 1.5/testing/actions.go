@@ -20,11 +20,11 @@ import (
 	"path"
 	"strings"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/fields"
-	"k8s.io/client-go/1.5/pkg/labels"
-	"k8s.io/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/fields"
+	"github.com/Icelandair/client-go/1.5/pkg/labels"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 func NewRootGetAction(resource unversioned.GroupVersionResource, name string) GetActionImpl {

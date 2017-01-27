@@ -19,12 +19,12 @@ package v1alpha1
 import (
 	"fmt"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	v1 "k8s.io/client-go/1.5/pkg/api/v1"
-	"k8s.io/client-go/1.5/pkg/apis/apps"
-	"k8s.io/client-go/1.5/pkg/conversion"
-	"k8s.io/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	v1 "github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/apps"
+	"github.com/Icelandair/client-go/1.5/pkg/conversion"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

@@ -29,13 +29,13 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	certutil "k8s.io/client-go/1.5/pkg/util/cert"
-	"k8s.io/client-go/1.5/pkg/util/flowcontrol"
-	"k8s.io/client-go/1.5/pkg/version"
-	clientcmdapi "k8s.io/client-go/1.5/tools/clientcmd/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	certutil "github.com/Icelandair/client-go/1.5/pkg/util/cert"
+	"github.com/Icelandair/client-go/1.5/pkg/util/flowcontrol"
+	"github.com/Icelandair/client-go/1.5/pkg/version"
+	clientcmdapi "github.com/Icelandair/client-go/1.5/tools/clientcmd/api"
 )
 
 const (

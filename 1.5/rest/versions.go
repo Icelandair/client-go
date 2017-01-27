@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"path"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
 )
 
 const (

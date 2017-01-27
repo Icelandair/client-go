@@ -19,15 +19,15 @@ package api
 import (
 	"fmt"
 
-	"k8s.io/client-go/1.5/pkg/api/resource"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/conversion"
-	"k8s.io/client-go/1.5/pkg/fields"
-	"k8s.io/client-go/1.5/pkg/labels"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/intstr"
-	utillabels "k8s.io/client-go/1.5/pkg/util/labels"
-	"k8s.io/client-go/1.5/pkg/util/validation/field"
+	"github.com/Icelandair/client-go/1.5/pkg/api/resource"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/conversion"
+	"github.com/Icelandair/client-go/1.5/pkg/fields"
+	"github.com/Icelandair/client-go/1.5/pkg/labels"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/intstr"
+	utillabels "github.com/Icelandair/client-go/1.5/pkg/util/labels"
+	"github.com/Icelandair/client-go/1.5/pkg/util/validation/field"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

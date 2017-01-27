@@ -27,13 +27,13 @@ import (
 
 	"fmt"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/errors"
-	"k8s.io/client-go/1.5/pkg/api/testapi"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/diff"
-	utiltesting "k8s.io/client-go/1.5/pkg/util/testing"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/errors"
+	"github.com/Icelandair/client-go/1.5/pkg/api/testapi"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/diff"
+	utiltesting "github.com/Icelandair/client-go/1.5/pkg/util/testing"
 )
 
 type TestParam struct {

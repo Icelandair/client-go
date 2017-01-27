@@ -19,7 +19,7 @@ package config
 import (
 	"sync"
 
-	"k8s.io/client-go/1.5/pkg/util/wait"
+	"github.com/Icelandair/client-go/1.5/pkg/util/wait"
 )
 
 type Merger interface {

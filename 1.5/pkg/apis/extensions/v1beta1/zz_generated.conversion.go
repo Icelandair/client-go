@@ -21,14 +21,14 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	unversioned "k8s.io/client-go/1.5/pkg/api/unversioned"
-	v1 "k8s.io/client-go/1.5/pkg/api/v1"
-	autoscaling "k8s.io/client-go/1.5/pkg/apis/autoscaling"
-	batch "k8s.io/client-go/1.5/pkg/apis/batch"
-	extensions "k8s.io/client-go/1.5/pkg/apis/extensions"
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	unversioned "github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	v1 "github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	autoscaling "github.com/Icelandair/client-go/1.5/pkg/apis/autoscaling"
+	batch "github.com/Icelandair/client-go/1.5/pkg/apis/batch"
+	extensions "github.com/Icelandair/client-go/1.5/pkg/apis/extensions"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 func init() {

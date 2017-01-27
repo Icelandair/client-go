@@ -19,9 +19,9 @@ package unversioned
 import (
 	"fmt"
 
-	"k8s.io/client-go/1.5/pkg/labels"
-	"k8s.io/client-go/1.5/pkg/selection"
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/labels"
+	"github.com/Icelandair/client-go/1.5/pkg/selection"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
 // LabelSelectorAsSelector converts the LabelSelector api type into a struct that implements

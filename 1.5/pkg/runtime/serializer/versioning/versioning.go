@@ -19,8 +19,8 @@ package versioning
 import (
 	"io"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 // NewCodecForScheme is a convenience method for callers that are using a scheme.

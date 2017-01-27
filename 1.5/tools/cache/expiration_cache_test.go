@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/util/clock"
-	"k8s.io/client-go/1.5/pkg/util/sets"
-	"k8s.io/client-go/1.5/pkg/util/wait"
+	"github.com/Icelandair/client-go/1.5/pkg/util/clock"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/util/wait"
 )
 
 func TestTTLExpirationBasic(t *testing.T) {

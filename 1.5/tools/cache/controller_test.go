@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/sets"
-	"k8s.io/client-go/1.5/pkg/util/wait"
-	"k8s.io/client-go/1.5/pkg/watch"
-	fcache "k8s.io/client-go/1.5/tools/cache/testing"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/util/wait"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
+	fcache "github.com/Icelandair/client-go/1.5/tools/cache/testing"
 
 	"github.com/google/gofuzz"
 )

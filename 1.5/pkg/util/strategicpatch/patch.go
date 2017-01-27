@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"sort"
 
-	forkedjson "k8s.io/client-go/1.5/pkg/third_party/forked/golang/json"
-	"k8s.io/client-go/1.5/pkg/util/json"
+	forkedjson "github.com/Icelandair/client-go/1.5/pkg/third_party/forked/golang/json"
+	"github.com/Icelandair/client-go/1.5/pkg/util/json"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ghodss/yaml"

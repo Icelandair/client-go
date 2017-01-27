@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/net"
-	utilruntime "k8s.io/client-go/1.5/pkg/util/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/net"
+	utilruntime "github.com/Icelandair/client-go/1.5/pkg/util/runtime"
 )
 
 // Decoder allows StreamWatcher to watch any stream for which a Decoder can be written.

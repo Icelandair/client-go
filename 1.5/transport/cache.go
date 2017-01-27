@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	utilnet "k8s.io/client-go/1.5/pkg/util/net"
+	utilnet "github.com/Icelandair/client-go/1.5/pkg/util/net"
 )
 
 // TlsTransportCache caches TLS http.RoundTrippers different configurations. The

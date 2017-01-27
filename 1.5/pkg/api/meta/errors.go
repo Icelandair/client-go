@@ -19,7 +19,7 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
 )
 
 // AmbiguousResourceError is returned if the RESTMapper finds multiple matches for a resource

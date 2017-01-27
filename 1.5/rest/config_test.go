@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/client-go/1.5/pkg/api/testapi"
+	"github.com/Icelandair/client-go/1.5/pkg/api/testapi"
 )
 
 func TestIsConfigTransportTLS(t *testing.T) {

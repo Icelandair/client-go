@@ -26,7 +26,7 @@ import (
 
 var (
 	godepsFile           = flag.String("godeps-file", "", "absolute path to Godeps.json")
-	clientRepoImportPath = flag.String("client-go-import-path", "", "import path to a version of client-go, e.g., k8s.io/client-go/1.4")
+	clientRepoImportPath = flag.String("client-go-import-path", "", "import path to a version of client-go, e.g., github.com/Icelandair/client-go/1.4")
 )
 
 type Dependency struct {

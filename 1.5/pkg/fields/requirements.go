@@ -16,7 +16,7 @@ limitations under the License.
 
 package fields
 
-import "k8s.io/client-go/1.5/pkg/selection"
+import "github.com/Icelandair/client-go/1.5/pkg/selection"
 
 // Requirements is AND of all requirements.
 type Requirements []Requirement

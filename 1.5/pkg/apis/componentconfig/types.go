@@ -17,8 +17,8 @@ limitations under the License.
 package componentconfig
 
 import (
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	utilconfig "k8s.io/client-go/1.5/pkg/util/config"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	utilconfig "github.com/Icelandair/client-go/1.5/pkg/util/config"
 )
 
 type KubeProxyConfiguration struct {

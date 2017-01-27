@@ -19,8 +19,8 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	utilerrors "k8s.io/client-go/1.5/pkg/util/errors"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	utilerrors "github.com/Icelandair/client-go/1.5/pkg/util/errors"
 )
 
 // FirstHitRESTMapper is a wrapper for multiple RESTMappers which returns the

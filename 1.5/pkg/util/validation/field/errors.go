@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	utilerrors "k8s.io/client-go/1.5/pkg/util/errors"
+	utilerrors "github.com/Icelandair/client-go/1.5/pkg/util/errors"
 )
 
 // Error is an implementation of the 'error' interface, which represents a

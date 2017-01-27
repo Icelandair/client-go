@@ -17,12 +17,12 @@ limitations under the License.
 package latest
 
 import (
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/runtime/serializer/json"
-	"k8s.io/client-go/1.5/pkg/runtime/serializer/versioning"
-	"k8s.io/client-go/1.5/tools/clientcmd/api"
-	"k8s.io/client-go/1.5/tools/clientcmd/api/v1"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime/serializer/json"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime/serializer/versioning"
+	"github.com/Icelandair/client-go/1.5/tools/clientcmd/api"
+	"github.com/Icelandair/client-go/1.5/tools/clientcmd/api/v1"
 )
 
 // Version is the string that represents the current external default version.

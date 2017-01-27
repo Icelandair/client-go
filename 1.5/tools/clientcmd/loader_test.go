@@ -28,9 +28,9 @@ import (
 
 	"github.com/ghodss/yaml"
 
-	"k8s.io/client-go/1.5/pkg/runtime"
-	clientcmdapi "k8s.io/client-go/1.5/tools/clientcmd/api"
-	clientcmdlatest "k8s.io/client-go/1.5/tools/clientcmd/api/latest"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	clientcmdapi "github.com/Icelandair/client-go/1.5/tools/clientcmd/api"
+	clientcmdlatest "github.com/Icelandair/client-go/1.5/tools/clientcmd/api/latest"
 )
 
 var (

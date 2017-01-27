@@ -30,10 +30,10 @@ import (
 	"strconv"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/rest"
-	clientauth "k8s.io/client-go/1.5/tools/auth"
-	clientcmdapi "k8s.io/client-go/1.5/tools/clientcmd/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/rest"
+	clientauth "github.com/Icelandair/client-go/1.5/tools/auth"
+	clientcmdapi "github.com/Icelandair/client-go/1.5/tools/clientcmd/api"
 )
 
 var (

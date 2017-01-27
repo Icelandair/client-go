@@ -17,12 +17,12 @@ limitations under the License.
 package fake
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	unversioned "k8s.io/client-go/1.5/pkg/api/unversioned"
-	v1alpha1 "k8s.io/client-go/1.5/pkg/apis/rbac/v1alpha1"
-	labels "k8s.io/client-go/1.5/pkg/labels"
-	watch "k8s.io/client-go/1.5/pkg/watch"
-	testing "k8s.io/client-go/1.5/testing"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	unversioned "github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	v1alpha1 "github.com/Icelandair/client-go/1.5/pkg/apis/rbac/v1alpha1"
+	labels "github.com/Icelandair/client-go/1.5/pkg/labels"
+	watch "github.com/Icelandair/client-go/1.5/pkg/watch"
+	testing "github.com/Icelandair/client-go/1.5/testing"
 )
 
 // FakeRoles implements RoleInterface

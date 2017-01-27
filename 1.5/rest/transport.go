@@ -20,7 +20,7 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"k8s.io/client-go/1.5/transport"
+	"github.com/Icelandair/client-go/1.5/transport"
 )
 
 // TLSConfigFor returns a tls.Config that will provide the transport level security defined

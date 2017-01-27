@@ -21,12 +21,12 @@ limitations under the License.
 package api
 
 import (
-	unversioned "k8s.io/client-go/1.5/pkg/api/unversioned"
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	fields "k8s.io/client-go/1.5/pkg/fields"
-	labels "k8s.io/client-go/1.5/pkg/labels"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
-	types "k8s.io/client-go/1.5/pkg/types"
+	unversioned "github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	fields "github.com/Icelandair/client-go/1.5/pkg/fields"
+	labels "github.com/Icelandair/client-go/1.5/pkg/labels"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
+	types "github.com/Icelandair/client-go/1.5/pkg/types"
 	reflect "reflect"
 )
 

@@ -21,9 +21,9 @@ limitations under the License.
 package authentication
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
 	reflect "reflect"
 )
 

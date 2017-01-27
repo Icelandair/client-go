@@ -37,8 +37,8 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
-import k8s_io_kubernetes_pkg_api_unversioned "k8s.io/client-go/1.5/pkg/api/unversioned"
-import k8s_io_kubernetes_pkg_api_v1 "k8s.io/client-go/1.5/pkg/api/v1"
+import k8s_io_kubernetes_pkg_api_unversioned "github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+import k8s_io_kubernetes_pkg_api_v1 "github.com/Icelandair/client-go/1.5/pkg/api/v1"
 
 import strings "strings"
 import reflect "reflect"

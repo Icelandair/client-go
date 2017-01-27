@@ -23,11 +23,11 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/ugorji/go/codec"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/runtime/serializer/recognizer"
-	"k8s.io/client-go/1.5/pkg/util/framer"
-	utilyaml "k8s.io/client-go/1.5/pkg/util/yaml"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime/serializer/recognizer"
+	"github.com/Icelandair/client-go/1.5/pkg/util/framer"
+	utilyaml "github.com/Icelandair/client-go/1.5/pkg/util/yaml"
 )
 
 // NewSerializer creates a JSON serializer that handles encoding versioned objects into the proper JSON form. If typer

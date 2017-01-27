@@ -21,10 +21,10 @@ limitations under the License.
 package v1
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	autoscaling "k8s.io/client-go/1.5/pkg/apis/autoscaling"
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	autoscaling "github.com/Icelandair/client-go/1.5/pkg/apis/autoscaling"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 func init() {

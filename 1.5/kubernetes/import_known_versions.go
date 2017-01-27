@@ -20,18 +20,18 @@ package kubernetes
 import (
 	"fmt"
 
-	_ "k8s.io/client-go/1.5/pkg/api/install"
-	"k8s.io/client-go/1.5/pkg/apimachinery/registered"
-	_ "k8s.io/client-go/1.5/pkg/apis/apps/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/authentication/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/authorization/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/autoscaling/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/batch/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/certificates/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/extensions/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/policy/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/rbac/install"
-	_ "k8s.io/client-go/1.5/pkg/apis/storage/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/api/install"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/registered"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/apps/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/authentication/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/authorization/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/autoscaling/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/batch/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/certificates/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/extensions/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/policy/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/rbac/install"
+	_ "github.com/Icelandair/client-go/1.5/pkg/apis/storage/install"
 )
 
 func init() {

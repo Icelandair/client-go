@@ -19,7 +19,7 @@ package watch
 import (
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/util/wait"
+	"github.com/Icelandair/client-go/1.5/pkg/util/wait"
 )
 
 // ConditionFunc returns true if the condition has been reached, false if it has not been reached yet,

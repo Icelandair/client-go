@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/1.5/pkg/api/errors"
-	_ "k8s.io/client-go/1.5/pkg/api/install" // To register api.Pod used in tests below
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/api/v1"
-	k8sruntime "k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/clock"
-	"k8s.io/client-go/1.5/pkg/util/strategicpatch"
-	"k8s.io/client-go/1.5/rest"
+	"github.com/Icelandair/client-go/1.5/pkg/api/errors"
+	_ "github.com/Icelandair/client-go/1.5/pkg/api/install" // To register api.Pod used in tests below
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	k8sruntime "github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/clock"
+	"github.com/Icelandair/client-go/1.5/pkg/util/strategicpatch"
+	"github.com/Icelandair/client-go/1.5/rest"
 )
 
 type testEventSink struct {

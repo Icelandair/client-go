@@ -19,7 +19,7 @@ package net
 import (
 	"strings"
 
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
 var validSchemes = sets.NewString("http", "https", "")

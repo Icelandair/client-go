@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/apis/extensions"
-	"k8s.io/client-go/1.5/pkg/conversion"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/validation/field"
-	"k8s.io/client-go/1.5/pkg/watch/versioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/extensions"
+	"github.com/Icelandair/client-go/1.5/pkg/conversion"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/validation/field"
+	"github.com/Icelandair/client-go/1.5/pkg/watch/versioned"
 )
 
 const (

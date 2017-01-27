@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/v1"
-	policy "k8s.io/client-go/1.5/pkg/apis/policy/v1alpha1"
-	"k8s.io/client-go/1.5/rest"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	policy "github.com/Icelandair/client-go/1.5/pkg/apis/policy/v1alpha1"
+	"github.com/Icelandair/client-go/1.5/rest"
 )
 
 // The PodExpansion interface allows manually adding extra methods to the PodInterface.

@@ -17,9 +17,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	v1beta1 "k8s.io/client-go/1.5/pkg/apis/extensions/v1beta1"
-	watch "k8s.io/client-go/1.5/pkg/watch"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	v1beta1 "github.com/Icelandair/client-go/1.5/pkg/apis/extensions/v1beta1"
+	watch "github.com/Icelandair/client-go/1.5/pkg/watch"
 )
 
 // DeploymentsGetter has a method to return a DeploymentInterface.

@@ -17,7 +17,7 @@ limitations under the License.
 package runtime
 
 import (
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
 )
 
 // SetGroupVersionKind satisfies the ObjectKind interface for all objects that embed TypeMeta

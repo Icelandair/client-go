@@ -17,7 +17,7 @@ limitations under the License.
 package v2alpha1
 
 import (
-	"k8s.io/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

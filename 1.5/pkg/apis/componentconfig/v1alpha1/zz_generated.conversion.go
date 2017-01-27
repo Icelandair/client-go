@@ -21,11 +21,11 @@ limitations under the License.
 package v1alpha1
 
 import (
-	api "k8s.io/client-go/1.5/pkg/api"
-	componentconfig "k8s.io/client-go/1.5/pkg/apis/componentconfig"
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
-	config "k8s.io/client-go/1.5/pkg/util/config"
+	api "github.com/Icelandair/client-go/1.5/pkg/api"
+	componentconfig "github.com/Icelandair/client-go/1.5/pkg/apis/componentconfig"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
+	config "github.com/Icelandair/client-go/1.5/pkg/util/config"
 )
 
 func init() {

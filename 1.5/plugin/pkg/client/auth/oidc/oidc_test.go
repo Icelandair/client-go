@@ -33,9 +33,9 @@ import (
 	"github.com/coreos/go-oidc/key"
 	"github.com/coreos/go-oidc/oauth2"
 
-	"k8s.io/client-go/1.5/pkg/util/diff"
-	"k8s.io/client-go/1.5/pkg/util/wait"
-	oidctesting "k8s.io/client-go/1.5/plugin/pkg/auth/authenticator/token/oidc/testing"
+	"github.com/Icelandair/client-go/1.5/pkg/util/diff"
+	"github.com/Icelandair/client-go/1.5/pkg/util/wait"
+	oidctesting "github.com/Icelandair/client-go/1.5/plugin/pkg/auth/authenticator/token/oidc/testing"
 )
 
 func TestNewOIDCAuthProvider(t *testing.T) {

@@ -21,8 +21,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	conversion "k8s.io/client-go/1.5/pkg/conversion"
-	runtime "k8s.io/client-go/1.5/pkg/runtime"
+	conversion "github.com/Icelandair/client-go/1.5/pkg/conversion"
+	runtime "github.com/Icelandair/client-go/1.5/pkg/runtime"
 	reflect "reflect"
 )
 

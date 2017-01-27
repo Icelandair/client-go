@@ -19,7 +19,7 @@ package api
 import (
 	"fmt"
 
-	utilrand "k8s.io/client-go/1.5/pkg/util/rand"
+	utilrand "github.com/Icelandair/client-go/1.5/pkg/util/rand"
 )
 
 // NameGenerator generates names for objects. Some backends may have more information

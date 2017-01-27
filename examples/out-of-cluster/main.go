@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"time"
 
-	"k8s.io/client-go/1.4/kubernetes"
-	"k8s.io/client-go/1.4/pkg/api"
-	"k8s.io/client-go/1.4/tools/clientcmd"
+	"github.com/Icelandair/client-go/1.5/kubernetes"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/tools/clientcmd"
 )
 
 var (
-	kubeconfig = flag.String("kubeconfig", "./config", "absolute path to the kubeconfig file")
+	kubeconfig = flag.String("kubeconfig", "/home/andri/.kube/cluster.dev.icelandairlabs.com.kube", "absolute path to the kubeconfig file")
 )
 
 func main() {

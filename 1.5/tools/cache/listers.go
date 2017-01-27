@@ -20,16 +20,16 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/errors"
-	"k8s.io/client-go/1.5/pkg/api/meta"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/apis/apps"
-	"k8s.io/client-go/1.5/pkg/apis/batch"
-	"k8s.io/client-go/1.5/pkg/apis/certificates"
-	"k8s.io/client-go/1.5/pkg/apis/extensions"
-	"k8s.io/client-go/1.5/pkg/apis/policy"
-	"k8s.io/client-go/1.5/pkg/labels"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/errors"
+	"github.com/Icelandair/client-go/1.5/pkg/api/meta"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/apps"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/batch"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/certificates"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/extensions"
+	"github.com/Icelandair/client-go/1.5/pkg/apis/policy"
+	"github.com/Icelandair/client-go/1.5/pkg/labels"
 )
 
 // AppendFunc is used to add a matching item to whatever list the caller is using

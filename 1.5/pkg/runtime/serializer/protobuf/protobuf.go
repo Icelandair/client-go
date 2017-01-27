@@ -24,10 +24,10 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/runtime/serializer/recognizer"
-	"k8s.io/client-go/1.5/pkg/util/framer"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime/serializer/recognizer"
+	"github.com/Icelandair/client-go/1.5/pkg/util/framer"
 )
 
 var (

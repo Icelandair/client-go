@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/watch"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/watch"
 )
 
 // ensure the watch delivers the requested and only the requested items.

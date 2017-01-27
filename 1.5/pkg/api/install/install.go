@@ -23,17 +23,17 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/1.5/pkg/api"
-	"k8s.io/client-go/1.5/pkg/api/meta"
-	"k8s.io/client-go/1.5/pkg/api/unversioned"
-	"k8s.io/client-go/1.5/pkg/api/v1"
-	"k8s.io/client-go/1.5/pkg/apimachinery"
-	"k8s.io/client-go/1.5/pkg/apimachinery/registered"
-	"k8s.io/client-go/1.5/pkg/runtime"
-	"k8s.io/client-go/1.5/pkg/util/sets"
+	"github.com/Icelandair/client-go/1.5/pkg/api"
+	"github.com/Icelandair/client-go/1.5/pkg/api/meta"
+	"github.com/Icelandair/client-go/1.5/pkg/api/unversioned"
+	"github.com/Icelandair/client-go/1.5/pkg/api/v1"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery"
+	"github.com/Icelandair/client-go/1.5/pkg/apimachinery/registered"
+	"github.com/Icelandair/client-go/1.5/pkg/runtime"
+	"github.com/Icelandair/client-go/1.5/pkg/util/sets"
 )
 
-const importPrefix = "k8s.io/client-go/1.5/pkg/api"
+const importPrefix = "github.com/Icelandair/client-go/1.5/pkg/api"
 
 var accessor = meta.NewAccessor()
 
